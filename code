@@ -1,1 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Remoting.Messaging;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Exercícios_de_Fixação
+{
+    internal class Program
+    {
+        static void ExibirNome(string nome)
+        {
+            Console.WriteLine($"olá, {nome}!");
+        }
+        static void Main(string[] args)
+        {
+            string nome;
+
+            Console.WriteLine("Insira seu nome");
+            string nomeUsuario = Console.ReadLine();
+
+            ExibirNome(nomeUsuario);
+
+            Console.ReadKey();
+        }
+    }
+}
 
